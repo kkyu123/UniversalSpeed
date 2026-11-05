@@ -1,0 +1,16 @@
+﻿# 构建产物
+_internal/
+*.exe
+build/
+dist/
+*.spec
+
+# 运行期
+__pycache__/
+*.pyc
+*.log
+
+# 本地截图/临时文件
+gui*.png
+!.gitignore
+*.zip
