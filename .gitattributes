@@ -1,0 +1,8 @@
+﻿# 二进制文件，不做换行/文本转换
+*.exe binary
+*.zip binary
+*.png binary
+
+# Windows 脚本保持 CRLF
+*.vbs text eol=crlf
+*.ps1 text eol=crlf

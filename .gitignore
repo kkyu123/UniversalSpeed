@@ -1,16 +1,21 @@
-﻿# 构建产物
-_internal/
-*.exe
+﻿# PyInstaller 中间产物
 build/
-dist/
 *.spec
+
+# 打包目录：只保留已发布的单文件版 exe，其余忽略
+dist/*
+!dist/UniversalSpeed.exe
+
+# 目录版运行库（体积大、可由源码重建）
+_internal/
+
+# 其他二进制产物
+*.zip
 
 # 运行期
 __pycache__/
 *.pyc
 *.log
 
-# 本地截图/临时文件
+# 本地截图
 gui*.png
-!.gitignore
-*.zip
