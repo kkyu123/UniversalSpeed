@@ -1,4 +1,4 @@
-﻿# PyInstaller 中间产物
+# PyInstaller 中间产物
 build/
 *.spec
 
@@ -8,6 +8,9 @@ dist/*
 
 # 目录版运行库（体积大、可由源码重建）
 _internal/
+
+# 仓库根目录的目录版入口 exe（必须配 _internal/ 才能跑，不单独入库）
+/UniversalSpeed.exe
 
 # 其他二进制产物
 *.zip
