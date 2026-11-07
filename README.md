@@ -12,6 +12,7 @@ Windows x64 便携工具，给 **Unity IL2CPP** 引擎的游戏加速/减速（�
 | 目录版 | [UniversalSpeed-1.1-win64.zip](https://github.com/kkyu123/UniversalSpeed/releases/download/v1.1/UniversalSpeed-1.1-win64.zip) | 解压后双击 `UniversalSpeed.exe`，启动更快，长期用推荐这个 |
 
 两个版本功能完全一样，都是同一份源码打出来的。
+
 ## 用界面（推荐）
 
 双击 `UniversalSpeed.exe`：
@@ -109,4 +110,5 @@ python -m PyInstaller --noconfirm --onedir --windowed --name UniversalSpeed Univ
 ## 许可证
 
 MIT
+
 
